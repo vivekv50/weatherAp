@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherAP</title>
+    <link rel="shortcut icon" href="image/images.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/5fdba399ea.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="weather.css">
+    <link rel="stylesheet" data-purpose="Layout StyleSheet" title="Web Awesome" href="/css/app-wa-89587a1ff923b19df8a6a37179b8327c.css?vsn=d">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-thin.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Tilt+Neon&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>weather<a>AP</a></h1>
+        <a href="https://github.com/vivekv50" target="_blank"><i class="fa-brands fa-github"></i>vivekv50</a>
+    </header>
+    <main>
+        <div>
+            <input type="text" placeholder="- Enter the city name">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+       </div>
+       <h2></h2>
+       <h3></h3>
+       <h3></h3>
+    </main>
+    <section>
+        <div id="place">
+            <div class="placed" id="ncr">
+                <img src="image/ncr.avif" alt="">
+                <h2>Delhi</h2>
+                <h3 id="ntemp"></h3>
+                <h3 id="nwind"></h3>
+                <h3 id="nhumd"></h3>
+            </div>
+            <div class="placed" id="mum">
+                <img src="image/mumbai.avif" alt="">
+                <h2>Mumbai</h2>
+                <h3 id="mtemp"></h3>
+                <h3 id="mwind"></h3>
+                <h3 id="mhumd"></h3>
+            </div>
+        </div>
+        <div class="place">
+            <div class="placed" id="kol">
+                <img src="image/kolk.avif" alt="">
+                <h2>Kolkata</h2>
+                <h3 id="ktemp"></h3>
+                <h3 id="kwind"></h3>
+                <h3 id="khumd"></h3>
+            </div>
+            <div class="placed" id="Beng">
+                <img src="image/bang.png" alt="">
+                <h2>Bengaluru</h2>
+                <h3 id="btemp"></h3>
+                <h3 id="bwind"></h3>
+                <h3 id="bhumd"></h3>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <h3>Copyright © 2024 <a href="#">example@gmail.com</a></h3>
+    </footer>
+    <script src="weather.js"></script>
+</body>
+</html>
